@@ -1,0 +1,56 @@
+{
+  "comment": "Country/state/city/zip values must come from the 2extract Geo API or Geo Reference pages. Do not invent slugs.",
+  "docs": {
+    "geo_targeting": "https://docs.2extract.com/proxy-products/configuration/geo-targeting.md",
+    "countries": "https://docs.2extract.com/data/countries.md",
+    "isp_catalog": "https://docs.2extract.com/data/isp.md",
+    "geo_api": "https://docs.2extract.com/public-api/geo.md"
+  },
+  "geo_markets": [
+    {
+      "label": "United States",
+      "country": "us",
+      "steam_cc": "us"
+    },
+    {
+      "label": "Germany",
+      "country": "de",
+      "steam_cc": "de"
+    },
+    {
+      "label": "India",
+      "country": "in",
+      "steam_cc": "in"
+    }
+  ],
+  "hyperlocal": [
+    {
+      "label": "Los Angeles, California",
+      "country": "us",
+      "state": "california",
+      "city": "losangeles"
+    },
+    {
+      "label": "Berlin, Germany",
+      "country": "de",
+      "city": "berlin"
+    },
+    {
+      "label": "Beverly Hills ZIP",
+      "country": "us",
+      "zip": "90210"
+    }
+  ],
+  "steam_app_ids": [
+    {
+      "name": "Counter-Strike 2",
+      "app_id": "730"
+    }
+  ],
+  "mobile_isps": [
+    {
+      "label": "T-Mobile US (official docs example)",
+      "isp": "310260"
+    }
+  ]
+}
